@@ -28,7 +28,7 @@ struct AuthorsView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Mock Data") {
-//                        mockData()
+                        mockData()
                     }
                 }
                 
