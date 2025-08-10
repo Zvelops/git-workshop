@@ -18,7 +18,7 @@ struct AuthorsView: View {
             List(authors) { author in
                 ForEach(author.books, id: \.self) { book in
                     Text(book.title)
-                        .font(.headline)
+                        .font(.largeTitle)
                         .padding()
                         .background(Color.gray.opacity(0.2))
                 }
