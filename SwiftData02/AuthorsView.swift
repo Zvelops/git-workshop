@@ -36,7 +36,6 @@ struct AuthorsView: View {
             
             
         }
-        
     }
     
     func mockData() {
@@ -67,6 +66,10 @@ struct AuthorsView: View {
         
         context.insert(author)
         
+    }
+    
+    func IraDesaparecer() {
+        print("Ira Desaparecer")
     }
     
 }
