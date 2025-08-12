@@ -72,6 +72,10 @@ struct AuthorsView: View {
     func modificacao() {
         print("Modificado")
     }
+    
+    func oneMore() {
+        print("One more")
+    }
 }
 
 #Preview {
