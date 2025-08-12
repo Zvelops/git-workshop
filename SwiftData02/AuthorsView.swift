@@ -68,7 +68,10 @@ struct AuthorsView: View {
         context.insert(author)
         
     }
-    
+    // Adicionando uma modificação
+    func modificacao() {
+        print("Modificado")
+    }
 }
 
 #Preview {
